@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel>
 <title>Joseph Pintozzi's Git Achievements</title>
+<item><title>Apprentice Cleaning lady (Level 3)</title><description>Remove untracked files from the working tree with git clean</description></item>
 <item><title>Blacksmith (Level 5)</title><description>Created a branch using git checkout -b.</description></item>
 <item><title>Master Author (Level 10)</title><description>Made 2^Level commits using git commit.</description></item>
 <item><title>Banker (Level 4)</title><description>Join two or more development histories together with git merge.</description></item>
@@ -19,5 +20,4 @@
 <item><title>Master Socialite (Level 8)</title><description>pushed a branch to a remote repository using git push</description></item>
 <item><title>Master Author (Level 8)</title><description>Made 2^Level commits using git commit.</description></item>
 <item><title>Master Socialite (Level 7)</title><description>pushed a branch to a remote repository using git push</description></item>
-<item><title>Master Author (Level 7)</title><description>Made 2^Level commits using git commit.</description></item>
 </channel></rss>
