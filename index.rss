@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel>
 <title>Joseph Pintozzi's Git Achievements</title>
+<item><title>Blacksmith (Level 6)</title><description>Created a branch using git checkout -b.</description></item>
 <item><title>Product Manager (Level 4)</title><description>Stash the changes in a dirty working directory away with git stash.</description></item>
 <item><title>Merchant (Level 4)</title><description>Added an external repository with git remote add.</description></item>
 <item><title>Banker (Level 5)</title><description>Join two or more development histories together with git merge.</description></item>
@@ -19,5 +20,4 @@
 <item><title>Apprentice Seamstress (Level 2)</title><description>amended a commit with git commit --amend.</description></item>
 <item><title>Apprentice Seamstress (Level 1)</title><description>amended a commit with git commit --amend.</description></item>
 <item><title>Master Author (Level 9)</title><description>Made 2^Level commits using git commit.</description></item>
-<item><title>Apprentice Blacksmith (Level 3)</title><description>Created a branch using git checkout -b.</description></item>
 </channel></rss>
