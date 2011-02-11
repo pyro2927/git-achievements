@@ -324,9 +324,9 @@ function clean_logged_achievements() {
 
 function publish_achievements
 {
-    gh_pages=`which git-achievements`
-    gh_pages=`dirname $gh_pages`
-    cd $gh_pages
+    #gh_pages=`which git-achievements`
+    #gh_pages=`dirname $gh_pages`
+    cd ~/git/git-achievements/
 
     user=`git config --global user.name`
 
@@ -379,7 +379,7 @@ ul {
     echo "Unlocked ${unlockedCount}/$total <a href=\"http://github.com/icefox/git-achievements\">Git Achievements</a> for $points points<br>" >> index.html
 
     unlocked=`cat "${ACHIEVEMENTSLOGFILE}" | grep Unlocked | wc -l`
-
+	#count=`cat "${ACHIEVEMENTSLOGFILE}" 2> /dev/null | grep Unlocked | wc -l`
     # Unlocked Achievements
     echo "<ul>" >> index.html
     cat "${ACHIEVEMENTSLOGFILE}" | grep -v '^$' | grep -v 'Git Achievement Unlocked!' | grep -v '*' | sed -e 's/^ *//g'  -e 's/ *$//g' | awk '{ if (NR % 2 != 0) printf "<li><div class=\"title\">" $0 "</div>"; else printf "  <div class=\"info\">" $0 "</div></li>\n" }' | link_to_git_docs | sort >> index.html
